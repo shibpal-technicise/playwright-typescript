@@ -38,9 +38,13 @@ To open last HTML report run:
 
     npx playwright show-report
 
-Runs tests in headed mode:
+Runs the tests in headed mode:
 
     npx playwright test --headed
+
+Runs specific test:
+
+    npx playwright test ./tests/mytest.spec.ts
 
 And check out the following files:
   - ./tests/example.spec.ts - Example end-to-end test
