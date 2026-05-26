@@ -34,6 +34,14 @@ We suggest that you begin by typing:
 
     npx playwright test
 
+To open last HTML report run:
+
+    npx playwright show-report
+
+Runs tests in headed mode:
+
+    npx playwright test --headed
+
 And check out the following files:
   - ./tests/example.spec.ts - Example end-to-end test
   - ./playwright.config.ts - Playwright Test configuration
