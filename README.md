@@ -10,6 +10,12 @@ Installs required libraries for csv data-driven testing:
 
     npm install csv-parse
 
+Installs required libraries for excel data-driven testing:
+
+    npm install xlsx
+    npm install -D @types/xlsx
+    npm i --save-dev @types/node
+
 Runs the end-to-end tests:
 
     npx playwright test
