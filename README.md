@@ -6,6 +6,9 @@ Installs Playwright:
 
     npm init playwright@latest
 
+Installs required libraries for csv data-driven testing:
+    npm install csv-parse
+
 Runs the end-to-end tests:
 
     npx playwright test
