@@ -10,8 +10,6 @@ test.describe('Login Tests', () => {
 
     for (const data of testData) {
 
-        // if (data.run !== 'yes') continue;
-
         test(`Login test for - ${data.username}`, async ({ page }) => {
 
             test.skip(data.run !== 'yes', 'Run Flag=NO');
