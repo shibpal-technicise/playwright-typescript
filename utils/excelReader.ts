@@ -15,6 +15,6 @@ export function readExcel(filePath: string, sheetName: string): LoginData[]{
 
     const workbook = XLSX.readFile(fullPath);
     const sheet = workbook.Sheets[sheetName];
-    const data = XLSX.utils.sheet_to_json(sheet) as LoginData[];
+    const data = XLSX.utils.sheet_to_json(sheet);
     return data;
 }
